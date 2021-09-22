@@ -59,7 +59,7 @@ class CfgWeapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			sounds[] = {"StandardSound"};
+			sounds[] = {StandardSound};
 			reloadTime = RPM_SEMI;
 			dispersion = 0.00131;
 			minRange = 2;

@@ -553,7 +553,7 @@ class Opf_I_I_Officer_F: Opf_I_I_Soldier_Base_F
 		};
 	textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
 	textPlural = "$STR_A3_nameSound_veh_infantry_officer_p";
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Officer_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_I_Officer_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Warlord";

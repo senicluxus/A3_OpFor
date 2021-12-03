@@ -106,8 +106,7 @@ class CfgVehicles
 	};
     class O_Truck_02_covered_F;
     class O_Truck_02_transport_F;
-	// Arma 3 Aegis
-	//class Truck_02_viv_base_F;
+	// Arma 3 West Sahara
 	class Truck_02_cargo_base_lxWS: Truck_02_Base_F
 	{
 		hiddenSelections[] = {camo1, camo2, camo3, camo4, camo9};
@@ -157,97 +156,7 @@ class CfgVehicles
 			};
 		};
 	};
-	/*class Truck_02_cargo_base_F: Truck_02_viv_base_F
-	{
-		class TextureSources
-		{
-			class Separatist_01
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-			class Separatist_02
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_020;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-			class Separatist_03
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_030;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-		};
-	};*/
 	class Truck_02_flatbed_base_lxWS: Truck_02_cargo_base_lxWS{};
-	/*class Truck_02_flatbed_base_F: Truck_02_viv_base_F
-	{
-		class TextureSources
-		{
-			class Separatist_01
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-			class Separatist_02
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_020;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-			class Separatist_03
-			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_030;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {Atlas_OPF_S_F};
-			};
-		};
-	};*/
 	// Arma 3 Opposing Forces
     /*
     #include "cfgPara.hpp"

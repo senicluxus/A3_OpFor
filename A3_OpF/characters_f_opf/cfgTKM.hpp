@@ -540,3 +540,66 @@ class Opf_I_I_Soldier_Base_unarmed_F: Opf_I_I_Soldier_1_F
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
+class Opf_I_I_Officer_F: Opf_I_I_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_officer_s"};
+				speechPlural[] = {"veh_infantry_officer_p"};
+			};
+		};
+	textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
+	textPlural = "$STR_A3_nameSound_veh_infantry_officer_p";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_I_Officer_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = "Warlord";
+	icon = "iconManOfficer";
+	role = "Rifleman";
+	cost = 250000;
+	camouflage = 1.6;
+	uniformClass = Opf_U_O_S_Uniform_01_arid_F;
+	linkedItems[] = 
+	{
+		H_Beret_brn,
+		V_TacVest_khk,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		H_Beret_brn,
+		V_TacVest_khk,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_CTAR_GL_hex_F,
+		hgun_Pistol_heavy_02_Yorris_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_CTAR_GL_hex_F,
+		hgun_Pistol_heavy_02_Yorris_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_6(30Rnd_580x42_mag_f),
+		mag_3(6Rnd_45ACP_Cylinder),
+        mag_5(1Rnd_HE_Grenade_shell)
+	};
+	respawnMagazines[] = 
+	{
+        mag_6(30Rnd_580x42_mag_f),
+		mag_3(6Rnd_45ACP_Cylinder),
+        mag_5(1Rnd_HE_Grenade_shell)
+	};
+	headgearList[] = 
+	{
+		H_Beret_brn,1
+	};
+};

@@ -701,12 +701,12 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_SKS_F,
+		Opf_arifle_SKS_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_SKS_F,
+		Opf_arifle_SKS_F,
 		DefaultManWeapons
 	};
 	magazines[] = 

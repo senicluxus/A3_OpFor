@@ -113,8 +113,8 @@ class CfgWeapons
 		aimTransitionSpeed = 1.4;
 		dexterity = 1.6;
 		displayName = $STR_A3_O_CfgWeapons_arifle_RFB_F0;
-		picture = "\A3_Opf\Weapons_F_Opf\Rifles\RFB\Data\UI\icon_arifle_RFB_F_X_CA.paa";
-		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
+		picture = "\a3\weapons_f\Rifles\SDAR\data\UI\gear_sdar_x_ca.paa";
+		UiPicture = "\a3\weapons_f\Rifles\SDAR\data\UI\gear_sdar_t_ca.paa";
 		descriptionShort = $STR_A3_O_CfgWeapons_arifle_RFB_F1;
 		class Library
 		{

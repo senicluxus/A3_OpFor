@@ -27,6 +27,6 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Personnel_Tribal
 	{
-		displayName = "Men (Tribal)";
+		displayName = "Men (Bandits)";
 	};
 };

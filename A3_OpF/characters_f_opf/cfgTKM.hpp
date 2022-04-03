@@ -814,6 +814,5 @@ class Opf_I_I_tribal_deserter : I_SFIA_deserter_lxWS
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
-	uniformClass = Opf_I_I_Uniform_01_hex_F;
     editorSubcategory = EdSubcat_Personnel_Tribal;
 };

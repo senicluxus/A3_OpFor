@@ -5,5 +5,6 @@ class CfgVehicles
 
 	// Arma 3 Opposing Forces
 	#include "cfgChKDZ.hpp"		// Separatists
+	#include "cfgTKM.hpp"		// Insurgents
 
 };

@@ -250,6 +250,41 @@ class CfgGroups
 					GROUP_UNIT(6,TGuerrila,Opf_I_I_Soldier_8_F,PRIVATE,-15,-15)
 					GROUP_UNIT(7,TGuerrila,Opf_I_I_Soldier_3_F,PRIVATE,20,-20)
 				};
+				class TribalFireTeam
+				{
+					name = "Tribal Fire Team";
+					side = TGuerrila;
+					faction = Opf_IND_I_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Opf_I_I_tribal_enforcer,CORPORAL,0,0);
+					GROUP_UNIT(1,TGuerrila,Opf_I_I_tribal_hireling,PRIVATE,5,-5);
+					GROUP_UNIT(2,TGuerrila,Opf_I_I_tribal_watcher,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TGuerrila,Opf_I_I_tribal_deserter,PRIVATE,10,-10);
+				};
+				class TribalSentry
+				{
+					name = "Tribal Sentry";
+					side = TGuerrila;
+					faction = Opf_IND_I_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Opf_I_I_tribal_watcher,CORPORAL,0,0);
+					GROUP_UNIT(1,TGuerrila,Opf_I_I_tribal_deserter,PRIVATE,5,-5);
+				};
+				class TribalCombatGroup
+				{
+					name = "Tribal Combat Group";
+					side = TGuerrila;
+					faction = Opf_IND_I_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Opf_I_I_tribal_enforcer,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,Opf_I_I_tribal_scout,PRIVATE,5,-5);
+					GROUP_UNIT(2,TGuerrila,Opf_I_I_tribal_hireling,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TGuerrila,Opf_I_I_tribal_watcher,PRIVATE,10,-10);
+					GROUP_UNIT(4,TGuerrila,Opf_I_I_tribal_deserter,CORPORAL,-10,-10);
+					GROUP_UNIT(5,TGuerrila,Opf_I_I_tribal_deserter,PRIVATE,15,-15);
+					GROUP_UNIT(6,TGuerrila,Opf_I_I_tribal_sapper,PRIVATE,-15,-15);
+					GROUP_UNIT(7,TGuerrila,Opf_I_I_tribal_medic,PRIVATE,20,-20);
+				};
             };
 			class Motorized_MTP
 			{

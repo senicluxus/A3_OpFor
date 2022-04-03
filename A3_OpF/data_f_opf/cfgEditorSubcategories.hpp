@@ -25,4 +25,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "Ammo (Preppers)";
 	};
+	class EdSubcat_Personnel_Tribal
+	{
+		displayName = "Men (Tribal)";
+	};
 };

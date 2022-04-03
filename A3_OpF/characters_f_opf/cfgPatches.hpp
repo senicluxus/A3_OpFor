@@ -62,6 +62,13 @@ class CfgPatches
             Opf_I_I_Soldier_8_F,
             Opf_I_I_Soldier_9_F,
             Opf_I_I_Soldier_Base_unarmed_F,
+            Opf_I_I_tribal_scout,
+            Opf_I_I_tribal_watcher,
+            Opf_I_I_tribal_enforcer,
+            Opf_I_I_tribal_hireling,
+            Opf_I_I_tribal_medic,
+            Opf_I_I_tribal_sapper,
+            Opf_I_I_tribal_deserter,
 
             // Patriots
             Opf_I_P_Soldier_1_F,

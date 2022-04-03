@@ -8,7 +8,10 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgChKDZ.hpp" */
-            Opf_O_S_ZU23_lxWS_F
+            Opf_O_S_ZU23_lxWS_F,
+
+			/* From "cfgTKM.hpp" */
+			OpF_I_I_ZU23_lxWS_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

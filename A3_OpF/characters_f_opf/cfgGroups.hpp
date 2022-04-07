@@ -252,7 +252,7 @@ class CfgGroups
 				};
 				class TribalFireTeam
 				{
-					name = "Tribal Fire Team";
+					name = "Bandit Fire Team";
 					side = TGuerrila;
 					faction = Opf_IND_I_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
@@ -263,7 +263,7 @@ class CfgGroups
 				};
 				class TribalSentry
 				{
-					name = "Tribal Sentry";
+					name = "Bandit Sentry";
 					side = TGuerrila;
 					faction = Opf_IND_I_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
@@ -272,7 +272,7 @@ class CfgGroups
 				};
 				class TribalCombatGroup
 				{
-					name = "Tribal Combat Group";
+					name = "Bandit Combat Group";
 					side = TGuerrila;
 					faction = Opf_IND_I_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";

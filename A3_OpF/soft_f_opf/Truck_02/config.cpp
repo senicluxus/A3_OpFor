@@ -157,6 +157,7 @@ class CfgVehicles
 		};
 	};
 	class Truck_02_flatbed_base_lxWS: Truck_02_cargo_base_lxWS{};
+	class Truck_02_aa_base_lxWS;
 	// Arma 3 Opposing Forces
     /*
     #include "cfgPara.hpp"

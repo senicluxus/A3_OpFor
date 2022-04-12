@@ -32,36 +32,36 @@ class Opf_O_S_Soldier_1_F: Opf_O_S_Soldier_Base_F
 	linkedItems[] = 
 	{
 		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_AKM_F,
+		arifle_AKM74_polymer_alt,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKM_F,
+		arifle_AKM74_polymer_alt,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_6(30Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_6(30Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
@@ -93,8 +93,8 @@ class Opf_O_S_Soldier_1_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -135,13 +135,13 @@ class Opf_O_S_Soldier_2_F: Opf_O_S_Soldier_Base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_black_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_black_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
@@ -176,8 +176,8 @@ class Opf_O_S_Soldier_2_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -216,16 +216,16 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKM_F,
+		arifle_AKM74_polymer,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKM_F,
+		arifle_AKM74_polymer,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_762x39_Mag_Green_F)};
-	respawnMagazines[] = {mag_6(30Rnd_762x39_Mag_Green_F)};
+	magazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
+	respawnMagazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
 	attendant = true;
 	icon = iconManMedic;
 	picture = pictureHeal;
@@ -258,8 +258,8 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -285,13 +285,13 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
 	uniformClass = Opf_U_O_S_Gorka_01_autumn_F;
 	linkedItems[] = 
 	{
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
@@ -347,8 +347,8 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -387,13 +387,13 @@ class Opf_O_S_Soldier_5_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
         launch_RPG32_camo_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
         launch_RPG32_camo_F,
 		DefaultManWeapons
 	};
@@ -438,8 +438,8 @@ class Opf_O_S_Soldier_5_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -513,8 +513,8 @@ class Opf_O_S_Soldier_6_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -593,8 +593,8 @@ class Opf_O_S_Soldier_7_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -673,8 +673,8 @@ class Opf_O_S_Soldier_8_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -747,8 +747,8 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -775,12 +775,12 @@ class Opf_O_S_Crew_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
@@ -831,13 +831,13 @@ class Opf_O_S_Soldier_Base_unarmed_F: Opf_O_S_Soldier_1_F
 	linkedItems[] = 
 	{
 		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;

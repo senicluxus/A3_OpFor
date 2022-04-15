@@ -23,6 +23,9 @@ class CfgPatches
             Opf_I_I_Offroad_01_armed_F,
             Opf_I_I_Offroad_01_AT_F,
             Opf_I_I_Offroad_01_F,
+            Opf_I_I_Offroad_01_armor_base_F,
+            Opf_I_I_Offroad_01_armor_armed_F,
+            Opf_I_I_Offroad_01_armor_AT_F,
 
             // Patriots
             Opf_I_P_Offroad_01_armed_F,

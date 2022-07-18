@@ -216,12 +216,12 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKM74_polymer,
+		arifle_AKM74_polymer_alt,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKM74_polymer,
+		arifle_AKM74_polymer_alt,
 		DefaultManWeapons
 	};
 	magazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
